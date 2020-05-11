@@ -1,4 +1,4 @@
-# simple-websockets-chat-app
+# simple-react-ws-sqs-chat-app
 
 This is the code and template for a reach-chat-app using websockets. All the back end code is under the backend directory.There are three functions contained within the directories and a SAM template that wires them up to a DynamoDB table and provides the minimal set of permissions needed to run the app. The fourth function is used to get messages from a SQS queue and broadcast the message in it to all the connnected chat clients:
 
