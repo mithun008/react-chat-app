@@ -14,6 +14,9 @@ This is the code and template for a reach-chat-app using websockets. All the bac
 
 # Deploying to your account
 
+Architecture for the solution is described in the following diagram.
+![RectAppDesign](./react-chat-app2.png)
+
 ## Back end services
 
 You can use the following SAM commands to deploy the back end services to your account. It includes lambda functions, DynamoDB table, SQS queue,API Gateway endpoint and all the required permissions.
